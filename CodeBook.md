@@ -4,7 +4,8 @@ The code book describes the variables, data, and transformations performed to cl
 
 ##Data
 
-The data in the `results.csv` file contains mean and standard deviation values measured during different activities. The activities can be found in the `activity` column:
+The data created by the analysis contains mean and standard deviation values for acceleration measured during different activities. The values are grouped by the activity so that each activity makes up one row in the data set and values for the features are the average values calculated for each activity. The activities can be found in the `activity` column:
+
 * WALKING
 * WALKING_UPSTAIRS
 * WALKING_DOWNSTAIRS
@@ -23,10 +24,6 @@ e.g. body.gyroscope.jerk.bytime.sd.x
 * `FUNCTION`: The function that was used to calculate the data. This can be `mean` for mean or `sd` for standard deviation.
 * `AXIS`: is the axis on which the value was measured.
 
-
-##Data grouped by activity
-
-The features in the grouped data file `activity_results.csv` are the same as above with the difference that all the values are grouped by the activity. That means each activity makes up one row in the data set and values for the features are the average values calculated for each activity.
 
 ## Getting the Data
 

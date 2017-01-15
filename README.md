@@ -2,9 +2,9 @@
 
 The analysis consists of one script with the name `run_analysis.R`. You should be able to load the file in R with `source("PATH_TO_SCRIPT/run_analysis.R")`.
 
-The main function to perform the analysis in this file is `runAnalysis()`. Calling this function will perform the analysis and return the result as list where the `data` row contains the tidied data table and the `groupedData` row contains the data table grouped by activities.
+The main function to perform the analysis in this file is `runAnalysis()`. Calling this function will perform the analysis and return the result as the tidied data table grouped by activities containing the measures from the Samsung data set.
 
-The result will not only be returned but also saved to files named `results.csv` and `activity_results.csv`into the working directory.
+The result will not only be returned but also saved to files named `results.csv` and `activity_results.csv` into the working directory. The file `results.csv` contains the un-grouped results.
 
 To execute the analysis the `dplyr` package will be loaded so make sure the package is installed before running the script.
 

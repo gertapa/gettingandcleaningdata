@@ -40,8 +40,8 @@ runAnalysis <- function() {
     
     print("Finished analysis. Result exported to files results.csv and activity_results.csv")
 
-    # return both results as list
-    list(data = data, groupedData = groupedData)
+    # return grouped data as result
+    groupedData
 }
 
 # add the activities as lables as separate columns to the test and training data set
