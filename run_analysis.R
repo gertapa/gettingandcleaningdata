@@ -35,8 +35,8 @@ runAnalysis <- function() {
     
     
     # save results as csv file
-    write.csv(data,        file = "results.csv")
-    write.csv(groupedData, file = "activity_results.csv")
+    write.table(data,        file = "results.txt",          row.name=FALSE)
+    write.table(groupedData, file = "activity_results.txt", row.name=FALSE)
     
     print("Finished analysis. Result exported to files results.csv and activity_results.csv")
 
